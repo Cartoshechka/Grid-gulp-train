@@ -1,5 +1,44 @@
+# Dependencies
 node_modules/
-# IntellijIdea files
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE files
 .idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS files
 .DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.apdisk
+
+# Environment files
+.env
+.env.local
+
+# Cache
+.npm
+.eslintcache
+
+# Temporary files
+tmp/
+temp/
 .bin/
